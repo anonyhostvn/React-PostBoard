@@ -9,6 +9,7 @@ import { faStroopwafel } from '@fortawesome/free-solid-svg-icons' ;
 const Div = styled.div`
     width : 30% ;
     padding-top : 0.5em ; 
+    display : block ; 
 ` ;
 
 const Icontact = styled.span`
