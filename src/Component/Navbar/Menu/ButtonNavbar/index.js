@@ -29,7 +29,7 @@ export default class ButtonNavbar extends Component {
 
     render () {
         return (
-            <Div onClick={this.props.onClick} activeColor={this.props.activeColor}> {this.props.content} </Div>
+            <Div onMouseUp={() => alert('1')} onClick={this.props.onClick} activeColor={this.props.activeColor}> {this.props.content} </Div>
         ) ; 
     }
 
