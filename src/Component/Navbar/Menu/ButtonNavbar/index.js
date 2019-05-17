@@ -51,16 +51,15 @@ export default class ButtonNavbar extends Component {
                 <Div onClick={this.props.onClick} activeColor={this.props.activeColor}> {this.props.content} </Div>
 
                 {
-                    this.state.showMenu
+                    (this.state.showMenu && this.props.DropDown)
                     ? (
-                        <Dropdown/>
+                        <Dropdown items={this.props.items}/>
                     )
-
                     : (
                         null
                     )
                 }
-               
+            
             </Wrapper>
         ) ; 
     }

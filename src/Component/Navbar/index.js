@@ -9,7 +9,7 @@ const Div = styled.div`
     padding-left : 3rem ; 
     padding-right : 3rem ;
     display : flex ; 
-    background-color : #414141 ; 
+    background-color : #333 ; 
 ` ;
 
 const Space = styled.div`
